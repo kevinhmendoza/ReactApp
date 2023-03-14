@@ -2,7 +2,7 @@
 
 Este proyecto fue iniciado con [Create React App](https://github.com/facebook/create-react-app).
 
-## Available Scripts
+## Guiones disponibles
 
 En el directorio del proyecto, puede ejecutar:
 
@@ -29,7 +29,7 @@ La compilación se minimiza y los nombres de archivo incluyen los hashes.\
 
 Consulte la sección sobre [deployment](https://facebook.github.io/create-react-app/docs/deployment) para más información.
 
-## Learn More
+## Aprende más
 
 Puedes aprender más en el [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
