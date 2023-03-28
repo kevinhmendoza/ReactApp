@@ -1,12 +1,33 @@
 import { FC } from "react"
+import { TitleProps } from "types/components/title"
 
 import './styles/index.css'
 
-export const Title: FC = () => {
+export interface Frutas {
+  name: string,
+}
+
+type Name = string | number | boolean | 'Camilo'
+
+export const Title: FC<TitleProps> = ({ title }) => {
+const frutas: Frutas[] = [{
+  name: '',
+}]
+
+const pruebas = (name:  Name) => {
+  return name
+}
+ 
   return (
     <div className="title-container">
       <h1 className="title-title-h1">
-        Bienvenido a la capacitación de react
+        { title ? title : 'Bienvenido' }
+        {frutas.map((fruta) => {
+          return (
+            <span> { fruta.name } </span>
+          )
+        })}
+
       </h1>
     </div>
   )

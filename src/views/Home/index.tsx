@@ -10,7 +10,7 @@ import './styles/index.css'
 export const Home: FC = () => {
   return (
     <div className="home-contaiiner">
-      <Title />
+      <Title title="Bienvenido a la capacitación de react" />
       <div className="home-box">
         <Hello />
         <Input />
