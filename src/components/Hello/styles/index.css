@@ -1,0 +1,10 @@
+.hello-container {
+  width: auto;
+}
+
+.hello-description-span {
+  font-family: 'Roboto', sans-serif;
+  font-size: 0.9rem;
+  font-weight: 400 !important ;
+  color: #727272;
+}
