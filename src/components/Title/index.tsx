@@ -24,14 +24,14 @@ const pruebas = (name: Name) => {
   return (
     <div className="title-container">
       <h1 className="title-title-h1">
-        {title ? title : 'DANKO'}
+        {title ? title : 'Kevin Mendoza'}
         { frutas.map((fruta) => {
           return(
             <span> { fruta.name } </span>
           )
         })} 
         <p>
-          { pruebas('Juan') }
+          { pruebas('App React') }
         </p>
              
 
