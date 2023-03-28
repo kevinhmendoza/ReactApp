@@ -1,9 +1,12 @@
 import { FC } from "react"
+
 import { TitleProps } from "types/components/Title"
+
 
 import './styles/index.css'
 
 export interface Frutas {
+
   name: string
 }
 
@@ -31,6 +34,7 @@ const pruebas = (name: Name) => {
           { pruebas('Juan') }
         </p>
              
+
       </h1>
     </div>
   )

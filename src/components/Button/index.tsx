@@ -4,6 +4,7 @@ import './styles/index.css'
 
 export const Button: FC = () => {
 
+
   const hanldeClick = (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) =>{ 
     console.log(event) 
   }
@@ -14,7 +15,7 @@ export const Button: FC = () => {
 
   return (
     <div className="button-container">
-      <button className="button-button-adds" onClick={ hanldeClick } onFocus = {() => onFocus()} >
+      <button className="button-button-adds" onClick={ hanldeClick } onFocus = {() => onFocus()} > 
         Agregar
       </button>
     </div>
