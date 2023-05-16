@@ -16,7 +16,7 @@ export const Button: FC<ButtonProop> = ({ handleClick }) => {
   }
 
   return (
-    <ButtonContainer>
+    <ButtonContainer active={true}>
       <button className="button-button-adds" onClick={ handleClick } onFocus = {() => onFocus()} > 
         Agregar
       </button>
