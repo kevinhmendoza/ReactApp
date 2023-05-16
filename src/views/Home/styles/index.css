@@ -1,9 +1,3 @@
-.home-contaiiner {
-  width: 100%;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-}
 
 .home-box {
   width: 100%;

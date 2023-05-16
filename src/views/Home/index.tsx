@@ -6,13 +6,9 @@ import { Input } from "components/Input"
 import { Title } from "components/Title"
 
 import './styles/index.css'
-import styled from "styled-components"
-const HomeContainer = styled.div `
-width: 100%;
-display: flex;
-flex-direction: column;
-align-items: center;
-`
+import { HomeContainer } from "./styled/Home.styled"
+
+
 
 
 

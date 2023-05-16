@@ -1,6 +1,7 @@
 import { FC } from "react"
 
 import './styles/index.css'
+import { ButtonContainer } from "./styled/Button.styled"
 
 interface ButtonProop {
   handleClick: (e: any) => void
@@ -15,10 +16,10 @@ export const Button: FC<ButtonProop> = ({ handleClick }) => {
   }
 
   return (
-    <div className="button-container">
+    <ButtonContainer>
       <button className="button-button-adds" onClick={ handleClick } onFocus = {() => onFocus()} > 
         Agregar
       </button>
-    </div>
+    </ButtonContainer>
   )
 }
