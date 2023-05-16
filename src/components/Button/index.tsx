@@ -2,12 +2,13 @@ import { FC } from "react"
 
 import './styles/index.css'
 
-export const Button: FC = () => {
+interface ButtonProop {
+  handleClick: (e: any) => void
+}
+
+export const Button: FC<ButtonProop> = ({ handleClick }) => {
 
 
-  const hanldeClick = (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) =>{ 
-    console.log(event) 
-  }
 
   const onFocus = () => {
     console.log("Focused")
@@ -15,7 +16,7 @@ export const Button: FC = () => {
 
   return (
     <div className="button-container">
-      <button className="button-button-adds" onClick={ hanldeClick } onFocus = {() => onFocus()} > 
+      <button className="button-button-adds" onClick={ handleClick } onFocus = {() => onFocus()} > 
         Agregar
       </button>
     </div>
